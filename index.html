@@ -81,15 +81,25 @@
     </footer>
     <!-- END Footer -->
 	<script>
+		let myDate = new Date();
+		let today = myDate.getDay();
 		let coffee = "";
-		coffee = {
-			name: "Pumpkin Spice",
-			pic: "images/pumpkin-spice-latte.jpg",
-			alt: "Pumpkin Spice Coffee",
-			day: "Wednesday",
-			color: "coral",
-			desc: `I love me some Pumpkin Spice`,
-		} ; 
+
+		alert(today);
+		switch(today){
+			case 4:
+				coffee = {
+					name: "Pumpkin Spice",
+					pic: "images/pumpkin-spice-latte.jpg",
+					alt: "Pumpkin Spice Coffee",
+					day: "",
+					color: "coral",
+					desc: `I love me some Pumpkin Spice`,
+				}; 
+			break;
+		}
+
+
 		console.log(coffee);
 	</script>
 	
