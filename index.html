@@ -97,7 +97,7 @@
 			let myReturn = "";
 			myReturn = `<p>
     		 <img src="${coffee.pic}" alt="${coffee.alt}" id="coffee" />
-            <strong class="feature">${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong class="feature">${coffee.name}</strong>, ${coffee.desc}</p>
+            <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong class="feature">${coffee.name}</strong>, ${coffee.desc}</p>
 		</p>`
 			return myReturn; 
 		}
@@ -186,7 +186,7 @@
 					desc: `Who doesn't like cold brew?`
 				}; 
 				break;
-				
+
 			case 6:
 				coffee = {
 					name: "Bubble Tea",
